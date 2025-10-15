@@ -1,0 +1,84 @@
+/* app/HomePage.css */
+/* app/HomePage.css */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:lightgreen;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-card {
+  max-width: 480px;
+  width: 100%;
+  background: lightpink;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Georgia', serif; /* changed font */
+  color: #111827;
+  margin-bottom: 1rem;
+  line-height: 1.2; /* fit in one line */
+}
+
+.home-subtitle {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.home-button {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1rem; /* smaller button */
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.home-button:hover {
+  background-color: #2563eb;
+}
+
+.home-doctors {
+  text-align: left;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+  background-color: #fef9c3; /* light yellow background */
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.home-doctors h2 {
+  font-size: 1rem; /* thoda badi heading */
+  font-weight: 700;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.home-doctors table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.home-doctors td {
+  padding: 0.5rem 0;
+  font-size: 0.875rem;
+}
+
+.home-doctors td strong {
+  font-weight: 700; /* doctor name bold */
+  color: #111827;
+}

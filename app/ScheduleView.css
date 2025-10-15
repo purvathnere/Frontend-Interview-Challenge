@@ -1,0 +1,82 @@
+/* ScheduleView.css */
+
+.schedule-card {
+  background-color: #fff8e1; /* cream-ish */
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin: 2rem;
+}
+
+.schedule-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #f0e6cc;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.schedule-title {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.schedule-doctor {
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.schedule-select-doctor {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.schedule-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.schedule-date-input {
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.85rem;
+}
+
+.schedule-view-buttons {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.view-btn {
+  padding: 0.3rem 0.7rem;
+  font-size: 0.85rem;
+  border-radius: 0.375rem;
+  border: none;
+  background-color: #e5e7eb; /* light gray */
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.view-btn.active {
+  background-color: #1d4ed8; /* blue */
+  color: white;
+}
+
+.schedule-body {
+  margin-top: 1rem;
+}
+
+.schedule-message {
+  color: #555;
+  font-size: 0.875rem;
+}
