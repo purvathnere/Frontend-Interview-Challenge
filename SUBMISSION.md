@@ -1,8 +1,8 @@
 # Frontend Challenge Submission
 
-**Candidate Name:** [Your Name]
-**Date:** [Submission Date]
-**Time Spent:** [Total hours]
+**Candidate Name:** Purva Athnere
+**Date:** 16-10-2025
+**Time Spent:** 4-5 hours
 
 ---
 
